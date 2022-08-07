@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b11bcc7913611c3016ffde375f102e48",
+    "content-hash": "b6d40b17d53222ff132174279f1252d4",
     "packages": [
         {
             "name": "8fold/commonmark-abbreviations",
@@ -179,16 +179,16 @@
         },
         {
             "name": "8fold/php-amos",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/8fold/php-amos.git",
-                "reference": "43ca0c18e43bca824a6eafab42c83ce2860c26f9"
+                "reference": "6fc845d98f51a48c919b6acb961ee081765898b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/8fold/php-amos/zipball/43ca0c18e43bca824a6eafab42c83ce2860c26f9",
-                "reference": "43ca0c18e43bca824a6eafab42c83ce2860c26f9",
+                "url": "https://api.github.com/repos/8fold/php-amos/zipball/6fc845d98f51a48c919b6acb961ee081765898b2",
+                "reference": "6fc845d98f51a48c919b6acb961ee081765898b2",
                 "shasum": ""
             },
             "require": {
@@ -225,7 +225,7 @@
             "description": "Not a content management system.",
             "support": {
                 "issues": "https://github.com/8fold/php-amos/issues",
-                "source": "https://github.com/8fold/php-amos/tree/0.2.0"
+                "source": "https://github.com/8fold/php-amos/tree/0.3.0"
             },
             "funding": [
                 {
@@ -237,7 +237,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-03T23:20:18+00:00"
+            "time": "2022-08-05T20:07:04+00:00"
         },
         {
             "name": "8fold/php-html-builder",

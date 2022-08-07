@@ -15,7 +15,7 @@
   },
   "require": {
     "php": "^8.1",
-    "8fold/php-amos": "^0.2.0"
+    "8fold/php-amos": "^0.3"
   },
   "require-dev": {
     "phpstan/phpstan": "^1.2",
