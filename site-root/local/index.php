@@ -34,10 +34,7 @@ $request = (new ServerRequestCreator(
         withDomain: 'http://pro.8fold:8889',
         contentIn: __DIR__ . '/../../content-root'
     )->setTemplates(
-        default: Page::class,
-        // templates: [
-        //     'error404' => PageNotFound::class
-        // ]
-    )->response(for: $request)
+        default: Page::class
+    )->handle($request)
 );
 exit();
