@@ -1,0 +1,255 @@
+@tailwind base;
+
+body {
+    @apply text-8fold-black;
+
+    &> [class ~= "bg-8fold-black"] {
+        @apply text-8fold-white;
+    }
+
+    &> div, &>article {
+        @apply border-t-4;
+        @apply border-b-4;
+    }
+
+    a:hover, button:hover {
+        transition: all 0.3s;
+    }
+
+    button {
+        @apply text-white;
+        @apply font-bold;
+        @apply mt-4;
+        @apply w-full;
+        @apply py-1;
+        @apply px-2;
+        @apply rounded;
+    }
+
+    input {
+        @apply text-8fold-black;
+    }
+}
+
+h1, h2, h3 {
+    grid-column: span 4;
+    @apply font-headline;
+    @apply font-bold;
+    @apply py-3;
+}
+
+h1 {
+    @apply text-3xl;
+}
+
+h2 {
+    @apply text-2xl;
+}
+
+h3 {
+    @apply text-lg;
+}
+
+footer h2 {
+    @apply text-base;
+}
+
+p {
+    @apply py-2;
+    line-height: 1.75rem;
+}
+
+.container {
+    @apply px-1;
+}
+
+.pro {
+    &> div, &>article {
+        @apply border-8fold-teal;
+    }
+
+    &> [class ~= "bg-8fold-black"] {
+        @apply border-none;
+
+        a {
+            @apply text-8fold-teal;
+            &:hover {
+                @apply text-8fold-teal-light;
+            }
+        }
+
+        button {
+            @apply bg-8fold-teal;
+
+            &:hover {
+                @apply text-8fold-black;
+                @apply bg-8fold-teal-light;
+            }
+        }
+    }
+
+    a {
+        @apply text-8fold-teal-dark;
+        &:hover {
+            @apply text-8fold-teal;
+        }
+
+        &[class ~= "bg-8fold-teal"] {
+            @apply text-8fold-black;
+            &:hover {
+                @apply text-8fold-black;
+                @apply bg-8fold-teal-light;
+            }
+        }
+    }
+}
+
+.software {
+    &> div, &>article {
+        @apply border-8fold-gold;
+    }
+
+    &> [class ~= "bg-8fold-black"] {
+        @apply border-none;
+
+        a {
+            @apply text-8fold-gold;
+            &:hover {
+                @apply text-8fold-gold-light;
+            }
+        }
+
+        button {
+            @apply text-8fold-black;
+            @apply bg-8fold-gold;
+
+            &:hover {
+                @apply text-8fold-black;
+                @apply bg-8fold-gold-light;
+            }
+        }
+    }
+
+    a {
+        @apply text-8fold-gold-dark;
+        &:hover {
+            @apply text-8fold-gold;
+        }
+
+        &[class ~= "bg-8fold-gold"] {
+            @apply text-8fold-black;
+            &:hover {
+                @apply text-8fold-black;
+                @apply bg-8fold-gold-light;
+            }
+        }
+    }
+}
+
+.media {
+    &> div, &>article {
+        @apply border-8fold-red;
+    }
+
+    &> [class ~= "bg-8fold-black"] {
+        @apply border-none;
+
+        a {
+            @apply text-8fold-red;
+            &:hover {
+                @apply text-8fold-red-light;
+            }
+        }
+
+        button {
+            @apply bg-8fold-red;
+
+            &:hover {
+                @apply text-8fold-black;
+                @apply bg-8fold-red-light;
+            }
+        }
+    }
+
+    a {
+        @apply text-8fold-red-dark;
+        &:hover {
+            @apply text-8fold-red;
+        }
+
+        &[class ~= "bg-8fold-red"] {
+            @apply text-8fold-black;
+            &:hover {
+                @apply text-8fold-black;
+                @apply bg-8fold-red-light;
+            }
+        }
+    }
+}
+
+.link {
+    &> div, &>article {
+        @apply border-8fold-purple;
+    }
+
+    &> [class ~= "bg-8fold-black"] {
+        @apply border-none;
+
+        a {
+            @apply text-8fold-purple;
+            &:hover {
+                @apply text-8fold-purple-light;
+            }
+        }
+
+        button {
+            @apply bg-8fold-purple;
+
+            &:hover {
+                @apply text-8fold-black;
+                @apply bg-8fold-purple-light;
+            }
+        }
+    }
+
+    a {
+        @apply text-8fold-purple-dark;
+        &:hover {
+            @apply text-8fold-purple;
+        }
+
+        &[class ~= "bg-8fold-purple"] {
+            @apply text-8fold-black;
+            &:hover {
+                @apply text-8fold-black;
+                @apply bg-8fold-purple-light;
+            }
+        }
+    }
+}
+
+@media (max-width: 799px) {
+
+    article {
+        @apply text-lg;
+
+        ul {
+            @apply list-disc;
+            @apply ml-8;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    article h1 {
+        @apply text-4xl;
+    }
+
+    article.container {
+        max-width: 604px;
+    }
+}
+
+@tailwind components;
+
+@tailwind utilities;
