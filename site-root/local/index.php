@@ -33,8 +33,6 @@ $request = (new ServerRequestCreator(
     Site::init(
         withDomain: 'http://pro.8fold:8889',
         contentIn: __DIR__ . '/../../content-root'
-    )->setTemplates(
-        default: Page::class
     )->handle($request)
 );
 exit();
