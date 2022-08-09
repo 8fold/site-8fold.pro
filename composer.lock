@@ -179,16 +179,16 @@
         },
         {
             "name": "8fold/php-amos",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/8fold/php-amos.git",
-                "reference": "6fc845d98f51a48c919b6acb961ee081765898b2"
+                "reference": "9bcd3a9adb0b08fc0c483fdd42f9325d6853f2f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/8fold/php-amos/zipball/6fc845d98f51a48c919b6acb961ee081765898b2",
-                "reference": "6fc845d98f51a48c919b6acb961ee081765898b2",
+                "url": "https://api.github.com/repos/8fold/php-amos/zipball/9bcd3a9adb0b08fc0c483fdd42f9325d6853f2f2",
+                "reference": "9bcd3a9adb0b08fc0c483fdd42f9325d6853f2f2",
                 "shasum": ""
             },
             "require": {
@@ -225,7 +225,7 @@
             "description": "Not a content management system.",
             "support": {
                 "issues": "https://github.com/8fold/php-amos/issues",
-                "source": "https://github.com/8fold/php-amos/tree/0.3.0"
+                "source": "https://github.com/8fold/php-amos/tree/0.3.1"
             },
             "funding": [
                 {
@@ -237,7 +237,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-05T20:07:04+00:00"
+            "time": "2022-08-07T21:24:29+00:00"
         },
         {
             "name": "8fold/php-html-builder",
