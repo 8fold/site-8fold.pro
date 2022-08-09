@@ -1,3 +1,15 @@
+@use 'variables';
+
+body {
+  background-color: var(--color-background);
+  color: var(--color);
+  font-family: var(--body-font);
+}
+
+a {
+  color: var(--color-links);
+}
+/*
 @tailwind base;
 
 body {
@@ -253,3 +265,4 @@ p {
 @tailwind components;
 
 @tailwind utilities;
+*/
