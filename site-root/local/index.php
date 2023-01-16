@@ -12,6 +12,8 @@ require __DIR__ . '/../../vendor/autoload.php';
 
 use Laminas\HttpHandlerRunner\Emitter\SapiEmitter;
 
+use Eightfold\Markdown\Markdown as MarkdownConverter;
+
 use Eightfold\Amos\Site;
 
 use Nyholm\Psr7Server\ServerRequestCreator;
@@ -33,6 +35,22 @@ $request = (new ServerRequestCreator(
     Site::init(
         withDomain: 'http://pro.8fold:8889',
         contentIn: __DIR__ . '/../../content-root'
+    )->setMarkdownConverter(
+        MarkdownConverter::create()
+        ->withConfig([
+            'html_input' => 'allow'
+        ])->defaultAttributes([
+            Image::class => [
+                'loading'  => 'lazy',
+                'decoding' => 'async'
+            ]
+        ])->externalLinks([
+            'open_in_new_window' => true,
+            'internal_hosts'     => 'http://pro.8fold:8889'
+        ])->minified()
+        ->smartPunctuation()
+        ->abbreviations()
+        ->attributes() // for class on notices
     )->handle($request)
 );
 exit();

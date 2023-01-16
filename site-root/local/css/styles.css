@@ -22,7 +22,56 @@ body{
   color:var(--color);
   font-family:var(--body-font);
 }
+body > p:first-of-type{
+  text-align:center;
+}
+
+h1{
+  text-align:center;
+}
 
 a{
   color:var(--color-links);
+}
+
+div[is=profiles]{
+  display:flex;
+  flex-direction:row;
+  flex-flow:column wrap;
+  max-width:1100px;
+  margin:0 auto;
+}
+div[is=profiles] > div[is=profile-card]{
+  display:grid;
+  grid-template-areas:"image" "name" "link" "social";
+  text-align:center;
+}
+div[is=profiles] > div[is=profile-card] ul{
+  list-style:none;
+}
+div[is=profiles] > div[is=profile-card] > h2{
+  grid-area:name;
+  margin:0;
+  padding:0;
+}
+div[is=profiles] > div[is=profile-card] > p[is=book-now-link]{
+  grid-area:link;
+}
+div[is=profiles] > div[is=profile-card] > p[is=elsewhere]{
+  position:absolute;
+  left:-999em;
+}
+div[is=profiles] > div[is=profile-card] > p:last-of-type{
+  grid-area:image;
+  margin:0;
+  padding:0;
+}
+div[is=profiles] > div[is=profile-card] > p:last-of-type > img{
+  border-radius:50%;
+  height:150px;
+  width:auto;
+}
+
+footer{
+  text-align:center;
 }
