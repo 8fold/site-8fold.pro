@@ -264,13 +264,14 @@ To incentivize trade and spending of Folds, they decay over time.
 
 Periodically, 8fold redistributes revenue generated to qualifying Members according to their [Fold Level](/operations/fold-system#fold-levels).
 
-If 8fold is indebted to any entity, private or public, a redistribution cannot be made.
+Criteria for there to be a distribution event:
 
-If 8fold does not hold cash assets totaling at least three months of average expenses, a redistribution cannot be made. (This is calculated using estimated and actual spending for the current and previous year divided by four.)
+1. 8fold is not indebted to any entity, private or public.
+2. 8fold does not have short-term assets valued at three months of average expenses.
 
-If a redistribution cannot be made, the decay of Folds is suspended.
+If a distribution event cannot occur, Folds will not decay.
 
-If a redistribution *can* be made, it will be performed at the end of each quarter.
+If a distribution event *can* occur, it will be calculated each year on: January 1, April 1, July 1, and October 1.
 
 ## Changes to these policies and handbook
 
