@@ -150,7 +150,7 @@ Members agree to earn a minimum number of Folds per month to maintain their memb
 
 Members are empowered to:
 
-- earn and trade [Folds](/operations/fold-system) per the [Fold Policy](/legal/#fold-policy),
+- earn and trade [Folds](/operations/fold-system/) per the [Fold Policy](/legal/#fold-policy),
 - qualify for [revenue redistribution](/legal/#revenue-redistribution), and
 - gain access to Member-only discounts and content, when applicable.
 
