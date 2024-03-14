@@ -112,7 +112,7 @@ In other words, if you contributed 25,000 USD once, you would qualify for revenu
 
 ## Calculating the Distribution Pool
 
-8fold maintains a portfolio (think endowment) consisting of short-term (think cash), growth, negatively correlated, and low-correlation assets. Each asset category has a target percentage it should occupy within the overall portfolio. Only short-term assets may be used to create the Distribution Pool.
+8fold maintains a portfolio (think endowment) consisting of short-term (think cash), growth, negatively correlated, and low-correlation assets along with debt. Each asset category has a target percentage it should occupy within the overall portfolio. Only short-term assets may be used to create the Distribution Pool.
 
 Scenario one (short-term assets should be 6 percent of the portfolio, the value of the portfolio is 100,000 USD, operating expenses of 2,000 USD for the past 12 months, and short-term assets valued at 20,000 USD):
 
