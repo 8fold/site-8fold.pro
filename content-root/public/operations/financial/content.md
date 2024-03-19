@@ -19,22 +19,20 @@ These funds are considered direct revenue, and we apply a 30-30-30-10 approach t
 3. 30 percent goes to the Distribution Account.
 4. 10 percent goes to the Endowment Fund.
 
-If the Runway and Distribution Accounts are .
+If the Runway and Distribution Accounts are at their target minimum balances, excess will be placed in the Endowment Fund.
 
 ### Practitioner [.Preparation](Prep.) Fund (Practitioner Revenue)
 
-Practitioners have the option to send revenue generated from the sale of their products and services to 8fold (similar to a fiscal host). These funds are considered indirect revenue, and we apply a 90-10 approach to distributing to other fund accounts:
+Practitioners have the option to process revenue generated from the sale of their products and services through 8fold (similar to a fiscal host). Money processed this way is considered indirect revenue, and we apply a 90-10 split to distributing to other Funds:
 
 1. 90 percent goes to the Practitioner Preparation Fund.
 2. 10 percent is placed in the General Fund, and the distributions are made.
-
-It is likely Practitioners will invoice 8fold to receive the 90 percent. Therefore, it will appear as an expense on the Ledger for tax purposes.
 
 ### Open Source Software Support Fund
 
 Some Practitioners create [.Open Source Software](OSS) and may elect to have that software placed under the 8fold organization on various platforms.
 
-1. 85 percent becomes Practitioner Revenue
+1. 85 percent is moved to the Practitioner Prep. Fund.
 2. 10 percent goes to support the direct dependencies (development or otherwise) of the OSS project.
 3. 5 percent goes to support nonprofit organizations supported by 8fold.
 
@@ -42,8 +40,16 @@ Some Practitioners create [.Open Source Software](OSS) and may elect to have tha
 
 ### General Fund (Expenses)
 
-Operational expenses are covered by multiple accounts that collectively make up the General Fund. If, for some reason, there is both enough money in the General Fund to cover all 8fold liabilities, 
+Operational expenses are covered by multiple accounts that collectively make up the General Fund. If, for some reason, there is not enough money in the General Fund to cover all 8fold liabilities, we pull from the Distribution Fund followed by the Endowment Fund.
+
+### Practitioner Prep. Fund
+
+Practitioners invoice 8fold to receive the 90 percent owed to them. Invoices received will result in money being transferred from the Practitioner Prep. Fund to the General Fund. Practitioners may also request a portion of the 90 percent goes to other 8fold Funds and projects.
+
+### Open Source Software Support Fund
+
+85 percent is moved to the Practitioner Prep. Fund
 
 ### Tax Preparation Fund
 
-If taxes are owed annually (or quarterly), they will be paid out of the Tax Preparation Fund. A portion of the remaining 
+If taxes are owed annually (or quarterly), they will be paid out of the Tax Preparation Fund by transferring the amount owed to the General Fund. A percentage of the remaining balance of the Tax Preparation Fund is transferred to the General Fund in accordance with the flow described above; ignoring the 30 percent to the Tax Preparation Fund.
