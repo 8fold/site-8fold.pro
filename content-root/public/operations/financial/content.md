@@ -48,8 +48,10 @@ Practitioners invoice 8fold to receive the 90 percent owed to them. Invoices rec
 
 ### Open Source Software Support Fund
 
-85 percent is moved to the Practitioner Prep. Fund
+85 percent is moved to the Practitioner Prep. Fund. 15 percent is moved to the general ledger for distribution to third parties.
 
 ### Tax Preparation Fund
 
-If taxes are owed annually (or quarterly), they will be paid out of the Tax Preparation Fund by transferring the amount owed to the General Fund. A percentage of the remaining balance of the Tax Preparation Fund is transferred to the General Fund in accordance with the flow described above; ignoring the 30 percent to the Tax Preparation Fund.
+8fold files taxes annually (or quarterly) in accordance with Federal, State, and local laws.
+
+If taxes are owed, 8fold transfers the amount from the Tax Preparation Fund to the General Fund. 80 percent or less of the remaining balance in the Tax Preparation Fund is transferred to the General Fund in accordance with the flow described above; ignoring the 30 percent to the Tax Preparation Fund.
