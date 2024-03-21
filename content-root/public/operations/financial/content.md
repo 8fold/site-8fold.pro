@@ -52,6 +52,6 @@ Practitioners invoice 8fold to receive the 90 percent owed to them. Invoices rec
 
 ### Tax Preparation Fund
 
-8fold files taxes annually (or quarterly) in accordance with Federal, State, and local laws.
+8fold file taxes annually (or quarterly) in accordance with Federal, State, and local laws.
 
 If taxes are owed, 8fold transfers the amount from the Tax Preparation Fund to the General Fund. 80 percent or less of the remaining balance in the Tax Preparation Fund is transferred to the General Fund in accordance with the flow described above; ignoring the 30 percent to the Tax Preparation Fund.
