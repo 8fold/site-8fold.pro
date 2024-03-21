@@ -1,78 +1,52 @@
-# Operations and Culture
+# Operations
 
-Legally: 8fold operates as a single-member limited liability company registered in the state of Tennessee.
+## Intentional Culture
 
-Financially: 8fold operates as a not-for-profit cooperative of micro-business owners.
+8fold takes advantage of an intentional [culture](/operations/culture/) that is reviewed regularly for accuracy, completeness, and as a reminder.
 
-Why the division?
+## Minimal Meetings
 
-A single-member [.limited liability company](LLC) is a more flexible business structure than a formal not-for-profit or nonprofit operation. While we have not ruled out the future possibility, there is nothing stopping us from internally operating as a not-for-profit entity despite not being legally required to.
+Any 8fold Practitioner may create an event and invite all Practitioners. Further, Practitioners may have events that do not include other Practitioners.
 
-This fits squarely within the bounds of our culture.
+## No Employees
 
-## Culture 
+In order to:
 
-We take a deliberate, holistic, and iterative approach to our culture. Our culture begins with the [Manifesto for Agile Software Development](http://agilemanifesto.org/); replacing each instance of the word "software" with the word "solutions." We extend the Manifesto with our own values, principles, and practices.
+* maximize autonomy,
+* distribute authority & decision-making, and
+* shift traditional power dynamics
 
-### Values
+8fold does not have employees. We rely only on various [policies](/legal/) and [agreements](/legal/user-agreements/) with users; any party can opt out at any time.
 
-**Agency:** We acknowledge you by enabling the realization of what is meaningful to you.
+## No Management
 
-**Humility:** We avoid jealousy and condescension between people. Do not try to be better or worse than others, try to be better than who you were yesterday.
+As there are no employees, there are no employees to manage; therefore, we are self-managing and self-organizing. As such, we rely on a minimal rule set to govern and guide behavior.
 
-**Community:** We engage in relationships to increase connection and belonging while treating you with compassion.
+## Results-Only Work Environment
 
-**Evolution:** We make deliberate decisions regarding what to change and to what extent in order to continuously improve.
+As there are no employees or managers, you choose what you play with, when you play, where you play, and how to deliver the result.
 
-**Agility:** We do what we can to increase our ability to absorb change given our varying context.
+Of course, with great power comes great responsibility, and you typically get back what you put in at 8fold.
 
-**The Tao of Productivity:** We strive to balance efficiency, effectiveness, scope, and speed in a way that works for us.
+## Advice Process
 
-### Principles
+For the most part, anyone can make any decision regarding 8fold's future so long as they honestly seek and consider the advice of those impacted by the decision, often called the [advice process](http://www.reinventingorganizationswiki.com/Decision_Making). Further, the decision should not negatively impact the 8fold brand as a whole.
 
-**Time is the only commodity that matters.**
+8fold's [divisions](/operations/divisions/) are designed to help protect *themselves* and others from malicious conduct.
 
-**If we aren’t inspired by it, it’s difficult to inspire others.**
+## Like-mind, not Hive Mind
 
-**Trying to please everyone inspires no one.**
+8fold thrives on the diversification of ideas.
 
-**No task is above or below a practitioner.**
+Innovation comes from disruption, and disruption does *not* come from 20 people with the same idea sitting in a room together.
 
-**Complex systems emerge from simple rules and goals.**
+There will be conflict. There will be tension.
 
-**Danger is real—fear is a choice.**
+Therefore, we do our due diligence to ensure the creation of conflict norms that minimize politicking, backbiting, and infighting while maximizing the ability to have passionate, civil discourse and remain collaborative.
 
-**Pulling is generally met with less friction than pushing.**
+## Leverage Token Economies
 
-**Working at 100% utilization is not a noble goal.**
+8fold and its Members may participate in two token economies to work toward mutual benefit:
 
-**Don’t be a weasel.** Don’t talk negatively about anyone if they are not in the room with no intent of interaction _with_ that person \(or you have not already discussed the topic with them).
-
-**The Community Principle.** If you create, acquire, or use "it," you help maintain "it."
-
-### Practices
-
-The following practices are used to embody and encourage our values and principles.
-
-**Continuously assess if something agrees with or contradicts our values, principles, and practices.** If a user believes there is dissonance between something at 8fold and our values, principles, and practices, that user is encouraged to say or act in order to improve it.
-
-**Ask if the reason behind something is still valid.** We believe the _‘why’_ behind things is important. Further, in keeping with our core value of evolution, if the _why_ behind anything appears invalid, the thing itself is invalid. Finally, if the _why_ emerges again, it may be necessary to “dust off” what was put away.
-
-**All Practitioners are Members, but not all Members are Practitioners.** Members believe in the mission of 8fold and show support through earning Folds.
-
-**Members choose their individual work.** If a Member determines a task is beyond their level of knowledge, ability, or passion, they may ask another to teach or take on the task. However, no Member has the authority to assign a task to someone else.
-
-**Create intentional conflict norms.**
-
-**Results only work environment.** It's your life. You are a professional. You are the most qualified to determine what you're working on and when. Your fellow users have no right, obligation, or authority to watch over you without your permission.
-
-**Transparency with confidentiality.**
-
-**Practitioners own the products of their minds; 8fold owns trade marks, names, and marketing collateral.** The intellectual property policies of most organizations tend to protect the organization should someone leave over protecting or helping the employee should the organization let them go.
-
-**“Final” does not exist.** Final implies a thing will never change and cannot be improved. It is what it is; further, is it as it should be?
-
-**Knowledge sharing over knowledge hoarding.**
-
-**Practitioners do not work directly with any government organization under the 8fold banner.**
-
+1. The United States economy wherein the United States Dollar is the token (see [Financial Operations](/operations/financial/).
+2. The 8fold Fold System wherein an 8fold Fold is the token (see [The Fold System](/operations/fold-system/).
