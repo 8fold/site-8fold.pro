@@ -1,4 +1,4 @@
-<div role="alert">
+<div is="warning" role="alert">
 
 Disclaimer: The following is not legal or tax advice. It represents information and interpretations from multiple sources considered to be canonical or from subject matter experts on running a business, focusing primarily on The United States. Therefore, this information may be different in your country, region, or locality. If you have better sources or information, please do let us know.
 
@@ -84,9 +84,11 @@ This helps keep Lynn, the person, separate from Lynn's Lawn Care, the company.
 - Who pays taxes?
 	- Lynn
 - Who gets sued?
-	- Lynn's Lawn Care (.
+	- Lynn's Lawn Care (with a cautionary tale called [Piercing the Corporate Veil](https://en.wikipedia.org/wiki/Piercing_the_corporate_veil)).
 - Who "owns" the business and assets?
-	- Lynn
+	- Lynn (as a Single-member LLC, there is usualy one share, which is owned by the single member).
+
+It's worth noting that Lynn is not viewed as an employee of the LLC.
 
 
 
