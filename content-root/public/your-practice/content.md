@@ -47,7 +47,7 @@ It's important to note that this is not registering a legal business name. For e
 
 For Lynn, they will register the DBA and associate it to *their* legal name and social security number.
 
-Lynn should be able to go to their financial institution and have the DBA added to their account. If Lynn had not opened the separate account, this could become tricky and difficult to track. 
+Lynn should be able to go to their financial institution and have the DBA added to their account. If Lynn had not opened the separate account, this could become tricky and difficult to track.
 
 - Who gets charged?
 	- Residents (and businesses) in the neighborhood.
@@ -86,7 +86,7 @@ This helps keep Lynn, the person, separate from Lynn's Lawn Care, the company.
 - Who gets sued?
 	- Lynn's Lawn Care (with a cautionary tale called [Piercing the Corporate Veil](https://en.wikipedia.org/wiki/Piercing_the_corporate_veil)).
 - Who "owns" the business and assets?
-	- Lynn (as a Single-member LLC, there is usualy one share, which is owned by the single member).
+	- Lynn (as a Single-member LLC, there is usually one share, which is owned by the single member).
 
 It's worth noting that Lynn is not viewed as an employee of the LLC.
 
@@ -104,7 +104,7 @@ As an overview we will use the following major categories:[^1]
 - individual,
 - doing business as,
 - partnerships,
-- company, and 
+- company, and
 - corporation.
 
 |Structure                        |Paid in the name of     |Taxes paid by |Lawsuit target |Asset ownership      |
