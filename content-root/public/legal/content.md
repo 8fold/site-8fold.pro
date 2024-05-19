@@ -59,7 +59,9 @@ In some cases, we may use [multiple encryption](https://en.wikipedia.org/wiki/Mu
 
 Do not disclose information unless it's necessary to reach a goal. Even if it is required to reach your goal, understand *why* that specific piece of data is required.
 
-For example, the first step in becoming a [Registered User](/legal/user-agreements/) is to provide an email address. 8fold is an invitation-only platform; therefore, 8fold requires somewhere to send the invitation (as well as confirmation that you—or someone with access to that email address—requested the invitation). We specifically require a registered and preferred means of digital communication.
+For example, the first step in becoming a [Registered User](/legal/user-agreements/) is to provide an email address. 8fold does not store this email address as-is, and can not retrieve it.
+
+8fold is an invitation-only platform; therefore, 8fold requires somewhere to send the invitation (as well as confirmation that you—or someone with access to that email address—requested the invitation). We specifically require a registered and preferred means of digital communication.
 
 Encrypt your data whenever possible. Most operating systems allow you to encrypt what is referred to as "data at rest" (e.g., your computer's hard drive). It is also possible to encrypt data traveling from one computer to another ("data in transit") so long as the receiver can decrypt that data.
 
