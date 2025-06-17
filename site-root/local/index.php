@@ -1,133 +1,91 @@
 <?php
+$businesses = [
+    'https://liberatedelephant.com'       => 'Liberated Elephant',
+    'https://www.poly-labor.com'          => 'Poly Labor',
+    'https://amidknight.com'              => 'Alexander Midknight',
+    'https://mastering-the-mundane.com'   => 'Mastering the Mundane',
+    'https://intent-agility.com'          => 'Intent Agility',
+    'https://4th.earth'                   => '4th Earth',
+    'https://the-irreverent-agilists.com' => 'The Irreverent Agilists'
+];
 
-// testing CD
-declare(strict_types=1);
+$randomized = [];
+while (count($businesses) > 0) {
+    $randomKey = array_rand($businesses);
 
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
+    $randomized[$randomKey] = $businesses[$randomKey];
 
-ini_set('realpath_cache_size', '4096');
-ini_set('realpath_cache_ttl', '600');
-
-require __DIR__ . '/../../vendor/autoload.php';
-
-use Nyholm\Psr7\Factory\Psr17Factory;
-use Nyholm\Psr7Server\ServerRequestCreator;
-use Nyholm\Psr7\Response;
-
-use Laminas\HttpHandlerRunner\Emitter\SapiEmitter;
-
-use Eightfold\Markdown\Markdown;
-
-use Eightfold\Amos\SiteWithRequest;
-use Eightfold\Amos\FileSystem\Directories\Root as ContentRoot;
-use Eightfold\Amos\FileSystem\Path;
-
-use Eightfold\Site\Documents\Sitemap;
-
-use Eightfold\Site\Templates\PageNotFound;
-use Eightfold\Site\Templates\Page;
-
-/** Partials **/
-use Eightfold\Site\Partials\DateBlock;
-
-$psr17Factory = new Psr17Factory();
-
-$request = (new ServerRequestCreator(
-    $psr17Factory, // ServerRequestFactory
-    $psr17Factory, // UriFactory
-    $psr17Factory, // UploadedFileFactory
-    $psr17Factory  // StreamFactory
-))->fromGlobals();
-
-$site = SiteWithRequest::init(
-    ContentRoot::fromString(__DIR__ . '/../../content-root'),
-    $request
-);
-
-$emitter = new SapiEmitter();
-
-if ($site === false) {
-    $error500 = file_get_contents(__DIR__ . '/error-500.html');
-    if ($error500 === false) {
-        $error500 = 'Server error.';
-    }
-
-    $response = new Response(500, body: $error500);
-
-    $emitter->emit($response);
-    exit();
+    unset($businesses[$randomKey]);
 }
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>8fold Professionals</title>
+    <style>
+        * {
+            color: #ffffff;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
 
-$path = Path::fromString(
-    $request->getUri()->getPath()
-);
+        body {
+            background-color: #27313A;
+        }
+        article {
+            margin: 0 auto;
+            max-width: 400px;
+            line-height: 1.25rem;
+        }
 
-if (str_ends_with($path->toString(), 'sitemap.xml')) {
-    $response = new Sitemap();
+        h1 {
+            margin: 0 auto;
+            margin-top: 30px;
+            background-image: url('./media/logo.svg');
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            height: 150px;
+            width: 300px;
+        }
 
-    $emitter->emit($response($site));
-    exit();
-}
+        .sr-only {
+            position: absolute;
+            left: -10000px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
 
-$converter = Markdown::create()
-    ->withConfig([
-        'html_input' => 'allow'
-    ])->defaultAttributes([
-        Image::class => [
-            'loading'  => 'lazy',
-            'decoding' => 'async'
-        ]
-    ])->externalLinks([
-        'open_in_new_window' => true,
-        'internal_hosts'     => $site->domain()->toString()
-    ])->accessibleHeadingPermalinks([
-        'min_heading_level' => 2,
-        'max_heading_level' => 3,
-        'symbol'            => '＃'
-    ])->minified()
-    ->smartPunctuation()
-    ->descriptionLists()
-    ->tables()
-    ->attributes() // for class on notices
-    ->abbreviations()
-    ->partials([
-        'partials' => [
-            'dateblock'        => DateBlock::class,
-    //         'next-previous'    => NextPrevious::class,
-    //         'article-list'     => ArticleList::class,
-    //         'paycheck-loglist' => PaycheckLogList::class,
-    //         'original'         => OriginalContentNotice::class,
-    //         'data'             => Data::class,
-    //         'fi-experiments'   => FiExperiments::class,
-    //         'full-nav'         => FullNav::class,
-    //         'health-loglist'   => HealthLogList::class
-        ],
-        'extras' => [
-            'meta'         => $site->publicMeta($path),
-    //         'site'         => $site,
-    //         'request_path' => $path->toString()
-        ]
-    ]);
+        ul {
+            line-height: 2rem;
+        }
 
-if ($site->hasPublicMeta($path) === false) {
-    $response = new Response(
-        404,
-        body: (string) PageNotFound::create($site)
-            ->withConverter($converter)
-            ->withRequestPath($path)
-    );
+        a {
+            color: #0ABAF2;
+        }
 
-    $emitter->emit($response);
-    exit();
-}
-
-$body = (string) Page::create($site)
-    ->withConverter($converter)
-    ->withRequestPath($path);
-
-$response = new Response(200, body: $body);
-
-$emitter->emit($response);
-exit();
+        footer {
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1><span class="sr-only">8fold Professionals</span></h1>
+        <p>8fold Practitioners operate:</p>
+        <ul>
+            <?php foreach ($randomized as $url => $title) {
+                echo '<li><a href="'. $url . '">'. $title . '</a></li>';
+            } ?>
+        </ul>
+        <p>8fold is a not-for-profit collective of microbusiness owners operating in a variety of disciplines.</p>
+        <p>Part professional mastermind, part incubator, and part cooperative, 8fold strives to provide products and services to microbusinesses to reduce administrative burden and increase collective bargaining.</p>
+    </article>
+    <footer>
+        <p><small>&copy; 2019–<?php echo date('Y'); ?> 8fold, llc. All rights reserved.</small></p>
+    </footer>
+</body>
+</html>
