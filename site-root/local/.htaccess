@@ -20,9 +20,9 @@ ErrorDocument 500 /error-500.html
 	Header add Allow "GET, HEAD"
 
 	# Force HTTPS
-	# RewriteCond %{HTTPS} !=on
-	# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
-	# Header always set Content-Security-Policy "upgrade-insecure-requests;"
+	RewriteCond %{HTTPS} !=on
+	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+	Header always set Content-Security-Policy "upgrade-insecure-requests;"
 
 	# Always remove www
 	RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
@@ -36,7 +36,7 @@ ErrorDocument 500 /error-500.html
 	# Redirect 301 "/experiences/health-and-wellness/2023/" "/experiences/health-and-wellness/historical-summaries/#2023-44-years-of-age"
 
     # Send Requests To Front Controller...
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ index.php [L]
+    # RewriteCond %{REQUEST_FILENAME} !-d
+    # RewriteCond %{REQUEST_FILENAME} !-f
+    # RewriteRule ^ index.php [L]
 </IfModule>
