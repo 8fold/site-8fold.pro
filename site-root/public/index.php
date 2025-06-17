@@ -85,6 +85,7 @@ while (count($businesses) > 0) {
         <p>Part professional mastermind, part incubator, and part cooperative, 8fold strives to provide products and services to microbusinesses to reduce administrative burden and increase collective bargaining.</p>
     </article>
     <footer>
+        <p><small>This site inspired by <a href="https://www.berkshirehathaway.com">Berkshire Hathaway</a>.</small>
         <p><small>&copy; 2019–<?php echo date('Y'); ?> 8fold, llc. All rights reserved.</small></p>
     </footer>
 </body>
